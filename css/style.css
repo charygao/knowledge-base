@@ -97,6 +97,9 @@ li {
   .d-flex {
     display: flex;
   }
+  .justify-content-center {
+    justify-content: center;
+  }
   .align-items-center {
     align-items: center;
   }
@@ -796,6 +799,11 @@ li {
   .mew___components_share .wrap div i:hover {
     color: #05c0a5;
   }
+  .wrap-post-body {
+    background-color: #f2fafa;
+    padding: 20px;
+    border-radius: 5px;
+  }
   .wrap-post-body * {
     color: #003945;
   }
@@ -976,8 +984,17 @@ li {
   .d-flex {
     display: flex;
   }
+  .justify-content-center {
+    justify-content: center;
+  }
   .align-items-center {
     align-items: center;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  .margin-0 {
+    margin: 0;
   }
   * {
     box-sizing: border-box;

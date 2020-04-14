@@ -5,6 +5,9 @@
   .d-flex {
     display: flex;
   }
+  .justify-content-center {
+    justify-content: center;
+  }
   .align-items-center {
     align-items: center;
   }
@@ -703,6 +706,11 @@
   }
   .mew___components_share .wrap div i:hover {
     color: mew-color-green-1;
+  }
+  .wrap-post-body {
+    background-color: mew-color-background-2;
+    padding: 20px;
+    border-radius: 5px;
   }
   .wrap-post-body * {
     color: mew-color-text-1;
